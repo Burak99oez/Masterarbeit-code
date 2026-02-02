@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Project-specific outputs (experiment results, figures, models)
+# Ignore results and figures directories created by experiments
+rl_qlearning_sarsa/experiments/results/
+rl_qlearning_sarsa/figures/
+results/
+figures/
+models/
+checkpoints/
+*.ckpt
+
+# Compiled Python artifacts
+*.so
+
+# Optional: ignore large CSV outputs from runs (uncomment if desired)
+# *.csv

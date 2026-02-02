@@ -1,0 +1,2 @@
+algorithm,env,seed,alpha,gamma,eps_start,eps_end,eps_decay,eval_mean_return,eval_std_return,eval_mean_length,eval_success_rate
+qlearning,FrozenLake-v1,3,0.1,0.99,1.0,0.05,0.995,0.0,0.0,18.3,0.0
